@@ -12,6 +12,8 @@
 		CEFDC70A22CE2C33003E0F8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFDC70822CE2C33003E0F8A /* Main.storyboard */; };
 		CEFDC70C22CE2C34003E0F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFDC70B22CE2C34003E0F8A /* Assets.xcassets */; };
 		CEFDC70F22CE2C34003E0F8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFDC70D22CE2C34003E0F8A /* LaunchScreen.storyboard */; };
+		CEFDC71722CE4888003E0F8A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC71622CE4888003E0F8A /* SignupViewController.swift */; };
+		CEFDC71D22CE5ED5003E0F8A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC71C22CE5ED5003E0F8A /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CEFDC70B22CE2C34003E0F8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFDC70E22CE2C34003E0F8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEFDC71022CE2C34003E0F8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFDC71622CE4888003E0F8A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		CEFDC71C22CE5ED5003E0F8A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				CEFDC70B22CE2C34003E0F8A /* Assets.xcassets */,
 				CEFDC70D22CE2C34003E0F8A /* LaunchScreen.storyboard */,
 				CEFDC71022CE2C34003E0F8A /* Info.plist */,
+				CEFDC71622CE4888003E0F8A /* SignupViewController.swift */,
+				CEFDC71C22CE5ED5003E0F8A /* LoginViewController.swift */,
 			);
 			path = BerepProject;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFDC71D22CE5ED5003E0F8A /* LoginViewController.swift in Sources */,
+				CEFDC71722CE4888003E0F8A /* SignupViewController.swift in Sources */,
 				CEFDC70722CE2C33003E0F8A /* ViewController.swift in Sources */,
 				CEFDC70522CE2C33003E0F8A /* AppDelegate.swift in Sources */,
 			);
